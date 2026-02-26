@@ -1,0 +1,17 @@
+{
+  "name": "menu_projetos",
+  "version": "1.0.0",
+  "description": "projeto para juntar todos os trabalhos desenvolvidos em sala de aula.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "projeto",
+    "organização",
+    "comentarios",
+    "estudos"
+  ],
+  "author": "Julia",
+  "license": "ISC"
+}
