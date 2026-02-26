@@ -3,8 +3,8 @@ const btP2 = document.querySelector('#inputP2');
 const btP3 = document.querySelector('#inputP3');
 
 //chama um afunção usando esse evento
-
-btP1.addEventListener('click', function(){
+//o arrow esta sendo usado ai ao inves de escrever function é só colocar arrow
+btP1.addEventListener('click', () =>{
     window.location.href ='./pages/projeto01.html'
 });
 
@@ -20,9 +20,13 @@ function cacho(x, y){
     return x + y
 };
 
-const banana = cacho
-//arrow function
-const uva = () => 'sou uma fruta';
+function uva(){
+    return ('sou uma fruta')
+};
+
+// const banana = cacho
+// //arrow function
+// const uva = () => 'sou uma fruta';
 
 // function teste(a=0, y=0){
 //     return a + y
