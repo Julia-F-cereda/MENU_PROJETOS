@@ -1,0 +1,3 @@
+main = é o principal
+navegação= criar o botão para cada pg
+pages= projetos que vamos ter 
