@@ -1,3 +1,10 @@
 main = é o principal
 navegação= criar o botão para cada pg
 pages= projetos que vamos ter 
+
+emmet= 
+.: criando classe
+#: criando um id
+$:dados variaveis
+>: criar um filho
+{}: escrever no elemento
