@@ -1,8 +1,8 @@
 :root{
     --primary-color: rgb(231, 180, 188);
-    --primary-hover: rgb(223, 156, 167);
+    --primary-hover: rgb(102, 32, 44);
     --bg-color: rgb(243, 161, 199);
-    --text-color: black;
+    --text-color: rgb(228, 135, 163);
     --white: white;
     --shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
     --radius:8px;
@@ -45,11 +45,10 @@ button{
     cursor: pointer;
     box-shadow: var(--shadow);
     transition: all 0.3s ease;
-};
+}
 
-.project__button-group  input[type="button"]:hover,
-button:hover{
-    background-color: var(--primary-color);
+.project__button-group  input[type="button"]:hover, button:hover{
+    background-color: var(--primary-hover);
     transform: translateY(-2px);
-    box-shadow: 0 10px 15px -3px rgba(0 0 0 / 0.1)
+    box-shadow: 0 10px 15px -3px rgba(0 0 0 / 0.1);
 };

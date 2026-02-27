@@ -5,9 +5,14 @@ function criarBt(){
     btVoltar.innerText = 'Voltar';
     btVoltar.style.marginTop = '20px';
     //criando o click 
-    btVoltar.addEventListener('click', function(){
-        window.location.href = '../index.html'
-    });
+
+    function navegar(){
+        window.location.href = "../index.html"
+    };
+
+    btVoltar.addEventListener('click', navegar);
+
+
     //colocando o botao no body pra aparecer na pg
     document.body.appendChild(btVoltar);
 };

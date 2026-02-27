@@ -16,13 +16,13 @@ btP3.addEventListener('click', function(){
     window.location.href ='./pages/projeto03.html'
 });
 
-function cacho(x, y){
-    return x + y
-};
+// function cacho(x, y){
+//     return x + y
+// };
 
-function uva(){
-    return ('sou uma fruta')
-};
+// function uva(){
+//     return ('sou uma fruta')
+// };
 
 // const banana = cacho
 // //arrow function

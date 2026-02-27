@@ -15,4 +15,8 @@ location é uma função do navegador
 onload = quando a pg for carregada ela cria o botao
 
 
+    // btVoltar.addEventListener('click', function(){
+    //     window.location.href = '../index.html'
+    // });
+
 para formatar no css vc pode falar o tipo de input que vc quer formatar
