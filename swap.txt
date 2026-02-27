@@ -1,4 +1,4 @@
-main = é o principal
+main = é o principal. enviar pra oura pagina. botao ja existe
 navegação= criar o botão para cada pg
 pages= projetos que vamos ter 
 
@@ -8,3 +8,11 @@ emmet=
 $:dados variaveis
 >: criar um filho
 {}: escrever no elemento
+
+uma função que vai rwtornar 
+
+location é uma função do navegador
+onload = quando a pg for carregada ela cria o botao
+
+
+para formatar no css vc pode falar o tipo de input que vc quer formatar

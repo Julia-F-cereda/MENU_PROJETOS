@@ -1,7 +1,7 @@
 :root{
     --primary-color: rgb(231, 180, 188);
     --primary-hover: rgb(223, 156, 167);
-    --bg-color: black;
+    --bg-color: rgb(243, 161, 199);
     --text-color: black;
     --white: white;
     --shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
@@ -14,3 +14,42 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.project__header h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.project__button-group  input[type="button"],
+button{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: var(--radius);
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+};
+
+.project__button-group  input[type="button"]:hover,
+button:hover{
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0 0 0 / 0.1)
+};
